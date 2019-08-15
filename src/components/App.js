@@ -6,7 +6,7 @@ import MovieList from "./MovieList";
 import Loading from "./Loading";
 import { Portal } from "react-portal";
 
-const BASEURL = "https://openapi.naver.com";
+const BASEURL = "/api";
 const apikey = require('../apikey.json');
 
 class App extends Component {
